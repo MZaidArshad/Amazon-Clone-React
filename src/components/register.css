@@ -1,0 +1,63 @@
+.register {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register__container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.register__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register__container form input {
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  width: 98%;
+  border-radius: 3px;
+}
+
+.register__container p {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.register__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.register__signInBtn {
+  width: 100%;
+  background-color: #f0c14b;
+  border: 1px solid;
+  padding: 5px 7px;
+  font-size: 14px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+
+.register__haveAccountrBtn {
+  background-color: lightgray;
+  border: 1px solid darkgray;
+  padding: 5px 7px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}

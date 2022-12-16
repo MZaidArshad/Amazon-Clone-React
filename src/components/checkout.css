@@ -1,0 +1,41 @@
+.checkout__Ad {
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.checkout {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  height: max-content;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checkout__right {
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 780px) {
+  .checkout {
+    padding-top: 5px;
+  }
+  .checkout__right {
+    position: relative;
+    justify-content: center;
+  }
+  .checkout__Ad {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .checkout {
+    display: block;
+  }
+}

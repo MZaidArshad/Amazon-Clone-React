@@ -1,0 +1,18 @@
+ {
+      isLoading && <h2>Loading...</h2>;
+    }
+    {
+      !isLoading &&
+        data.map((product) => {
+          return (
+            <Product
+              key={product.id}
+              id={product.id}
+              title={product.title}
+              image={product.image}
+              price={product.price}
+              rating={product.rating}
+            />
+          );
+        });
+    }
