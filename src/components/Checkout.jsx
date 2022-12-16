@@ -43,7 +43,7 @@ function Checkout() {
             </div>
           )}
         </div>
-        {basket.length > 0 && (
+        {basket?.length > 0 && (
           <div className="checkout__right">{<Subtotal />}</div>
         )}
       </div>
